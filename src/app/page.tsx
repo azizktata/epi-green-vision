@@ -53,15 +53,14 @@ export default function Home() {
               <a href="#services">Contact-us</a>
             </Button>
           </div>
-          {/* <div className="relative w-full max-w-xl  sm:w-1/2 h-[450px] "> */}
+
           <Image
-            src="/cover-3.jpg"
+            src="/cover-3.webp"
             alt="Next.js Logo"
             width={550}
             height={550}
             className="object-cover max-w-sm lg:max-w-md sm:w-1/2"
           />
-          {/* </div> */}
         </div>
       </section>
 

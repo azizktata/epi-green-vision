@@ -21,7 +21,7 @@ export default {
   			sm: 'calc(var(--radius) - 4px)'
   		},
 		  animation: {
-			spin: 'spin 3.5s linear infinite', 
+			spin: 'spin 5.5s linear infinite', 
 			slow_pulse: 'pulse 3s infinite',
 		  },
   	}

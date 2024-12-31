@@ -19,7 +19,7 @@ export default function ValueContainer({
   const order1 = inverted ? "order-1" : "sm:order-2";
   const order2 = inverted ? "order-2" : "sm:order-1";
   return (
-    <div className="w-[90%] sm:w-full xl:w-[90%] flex flex-col sm:flex-row items-start justify-between gap-4  ">
+    <div className="w-[90%] sm:w-full xl:w-[90%] flex flex-col sm:flex-row items-start justify-between gap-8  ">
       <div
         className={`w-full   sm:w-1/2  max-h-[600px] h-[450px] self-stretch text-center relative ${order1}`}
       >
@@ -35,8 +35,8 @@ export default function ValueContainer({
         </h1>
       </div>
       <div className={`sm:w-1/2 flex flex-col pb-4 ${order2} lg:self-center  `}>
-        <p className="text-[#289F2F] ">{subtitle}</p>
-        <h1 className="text-2xl sm:text-4xl mb-4 max-w-md">{title}</h1>
+        <p className="text-[#289F2F] font-semibold ">{subtitle}</p>
+        <h1 className="text-3xl  font-bold  mb-4 max-w-md ">{title}</h1>
         <div className="max-w-lg">
           {description.map((desc, index) => (
             <p key={index} className="text-gray-700 leading-relaxed mb-2">

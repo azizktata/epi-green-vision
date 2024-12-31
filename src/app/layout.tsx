@@ -23,7 +23,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${rubik} antialiased`}>
-        <Toaster position="top-right" />
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            classNames: {
+              error: "bg-red-500",
+              success: "text-green-500",
+            },
+          }}
+        />
         <Header />
         {children}
         <Footer />

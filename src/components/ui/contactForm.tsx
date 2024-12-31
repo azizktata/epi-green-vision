@@ -123,7 +123,7 @@ export default function ContactForm() {
           className="bg-[#488DCA] rounded-sm text-base lg:text-lg px-4 py-6 w-full  font-normal  hover:bg-[#285C8A]"
         >
           {isLoading ? (
-            "encours..."
+            "sending..."
           ) : (
             <>
               envoyer

@@ -34,13 +34,13 @@ export default function VisionCarousel() {
       title: "Reduce Dependencies from Rare Raw Materials",
       description:
         "While providing new technological solutions based on non-expensive and available materials, we help accelerate the energy transition and increase its sustainability.",
-      imgUrl: "/service-5.webp",
+      imgUrl: "/service-4.webp",
     },
     {
       title: "Work in Open Network and Use Advanced Technologies",
       description:
         "We leverage high communication technologies like machine learning, artificial intelligence, and the internet of things to drive innovation.",
-      imgUrl: "/service-4.webp",
+      imgUrl: "/service-5.webp",
     },
   ];
   return (
@@ -68,7 +68,7 @@ export default function VisionCarousel() {
               </div>
               <CardBody className="absolute inset-0 mb-12 ml-4 lg:ml-14 z-10 flex items-start justify-center">
                 <div className="mt-12  flex flex-col items-start w-auto mb-6  ">
-                  <h1 className="mb-4 max-w-md xl:max-w-2xl font-semibold text-4xl sm:text-5xl  text-white  tracking-wider">
+                  <h1 className="mb-4 max-w-md xl:max-w-3xl font-semibold text-4xl sm:text-5xl  text-white  tracking-wider">
                     {vision.title}
                   </h1>
                   <p className="text-base  text-gray-100 font-normal mb-4  max-w-xs sm:max-w-lg xl:max-w-xl tracking-widest">
