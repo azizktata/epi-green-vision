@@ -19,7 +19,11 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		  animation: {
+			spin: 'spin 3.5s linear infinite', 
+			slow_pulse: 'pulse 3s infinite',
+		  },
   	}
   },
   plugins: [nextui(), require("tailwindcss-animate")],

@@ -65,7 +65,7 @@ export default function Footer() {
           <h4 className="text-lg font-bold mb-4">Contact</h4>
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
-              <MapPin size={16} />
+              <MapPin size={32} />
               <span>
                 A6, Imm Laguna Square, Les Berges du Lac 2 Po 1053, Tunis –
                 Tunisia

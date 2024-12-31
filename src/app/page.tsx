@@ -17,16 +17,17 @@ export default function Home() {
             fill
             className="object-cover"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via transparent "></div>
           <div className="z-10 text-white text-4xl font-bold text-center flex flex-col items-center gap-16">
             <Image
-              src="/logo-green.png"
+              src="/logo-green-v2.png"
               alt="Next.js Logo"
-              width={300}
-              height={300}
+              width={150}
+              height={150}
+              className="animate-spin  "
             />
-            <h1 className="text-2xl sm:text-4xl px-2 w-full md:text-5xl font-bold text-center max-w-3xl">
-              We aim to contribute on the global energy transition efforts to
-              reduce climate change impact
+            <h1 className="text-2xl sm:text-4xl px-2 w-full md:text-5xl font-bold text-center max-w-lg ">
+              Empowering a Greener Future with Innovative Solutions
             </h1>
             <ChevronsDown className="w-12 h-12 mx-auto mt-8 animate-bounce" />
           </div>
@@ -34,10 +35,10 @@ export default function Home() {
       </section>
 
       <section className="w-full my-16">
-        <div className="w-[90%]  mx-auto  flex flex-col sm:flex-row items-center justify-center gap-8 ">
+        <div className="w-[90%]  mx-auto  flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16 xl:gap-32">
           <div className="flex flex-col gap-2">
             {/* <p className="text-base">about us</p> */}
-            <h1 className="text-3xl md:text-5xl xl:text-6xl">
+            <h1 className="text-4xl md:text-5xl xl:text-6xl">
               <span className="text-[#004899] font-semibold ">EPI</span>
               <span className="text-[#B4CC5C] font-base ">Green</span>
               <span className="text-gray-600 ">Vision</span>
@@ -52,14 +53,15 @@ export default function Home() {
               <a href="#services">Contact-us</a>
             </Button>
           </div>
-          <div className="relative w-full max-w-xl  sm:w-1/2 h-[450px] ">
-            <Image
-              src="/cover-2.webp"
-              alt="Next.js Logo"
-              fill
-              className="object-cover"
-            />
-          </div>
+          {/* <div className="relative w-full max-w-xl  sm:w-1/2 h-[450px] "> */}
+          <Image
+            src="/cover-3.jpg"
+            alt="Next.js Logo"
+            width={550}
+            height={550}
+            className="object-cover max-w-sm lg:max-w-md sm:w-1/2"
+          />
+          {/* </div> */}
         </div>
       </section>
 
@@ -68,7 +70,7 @@ export default function Home() {
         className="w-[95%]  mx-auto flex flex-col items-center mb-16"
       >
         <div className="relative inline-block mb-16">
-          <div className="absolute inset-0 bg-green-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4"></div>
+          <div className="absolute inset-0 bg-green-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4 animate-pulse"></div>
           <h1 className="text-3xl font-bold text-gray-800">Our Values</h1>
         </div>
         {values.map((value, index) => (
@@ -86,7 +88,7 @@ export default function Home() {
 
       <section id="vision" className="w-full mx-auto mb-16 flex flex-col">
         <div className="relative inline-block mb-16 mx-auto ">
-          <div className="absolute inset-0 bg-blue-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4"></div>
+          <div className="absolute inset-0 bg-blue-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4 animate-pulse"></div>
           <h1 className="text-3xl font-bold text-gray-800">Our Vision</h1>
         </div>
         <VisionCarousel />
@@ -94,7 +96,7 @@ export default function Home() {
 
       <section id="services" className="w-[90%] mx-auto mb-16  flex flex-col">
         <div className="relative inline-block mb-16 mx-auto ">
-          <div className="absolute inset-0 bg-green-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4"></div>
+          <div className="absolute inset-0 bg-green-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4 animate-pulse"></div>
           <h1 className="text-3xl font-bold text-gray-800">Services</h1>
         </div>
         {services.map((service, index) => (
@@ -109,7 +111,7 @@ export default function Home() {
         ))}
       </section>
       <section id="contact" className=" relative w-full bg-gray-50 py-12">
-        <div className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-[#002F6B]/30 to-[#85E08A] opacity-10 rounded-lg z-0"></div>
+        <div className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-[#002F6B]/30 to-[#85E08A] opacity-10 rounded-lg z-0 animate-slow_pulse"></div>
         <div className="w-[90%] lg:w-[70%] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Gradient Background */}
 

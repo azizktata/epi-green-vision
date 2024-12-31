@@ -15,12 +15,14 @@ export default function ServiceContainer({
   inverted?: boolean;
 }) {
   const maxWidth = inverted ? "xl:max-w-lg" : "xl:max-w-xl";
-  const order1 = inverted ? "order-1" : "order-2";
-  const order2 = inverted ? "order-2" : "order-1";
-  const gradient = inverted ? "bg-gradient-to-r" : "bg-gradient-to-l";
+  const order1 = inverted ? "order-1" : "sm:order-2";
+  const order2 = inverted ? "order-2" : "sm:order-1";
+  const gradient = inverted
+    ? "bg-gradient-to-b sm:bg-gradient-to-r "
+    : " sm:bg-gradient-to-l";
   return (
     <div
-      className={`flex flex-col sm:flex-row items-center gap-8 justify-between  rounded-lg  from-white to-[#289F2F]/15 p-[2px] ${gradient} `}
+      className={`flex flex-col mb-8 sm:mb-0 sm:flex-row items-center gap-4 sm:gap-8  justify-between  rounded-lg  from-white to-[#289F2F]/15 p-[2px] ${gradient} `}
     >
       <div
         className={`flex flex-col items-start  self-start sm:self-center max-w-lg sm:max-w-sm md:max-w-md ${maxWidth} ${order1} `}

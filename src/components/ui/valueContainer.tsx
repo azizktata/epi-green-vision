@@ -16,8 +16,8 @@ export default function ValueContainer({
   inverted?: boolean;
   tagline: string;
 }) {
-  const order1 = inverted ? "order-1" : "order-2";
-  const order2 = inverted ? "order-2" : "order-1";
+  const order1 = inverted ? "order-1" : "sm:order-2";
+  const order2 = inverted ? "order-2" : "sm:order-1";
   return (
     <div className="w-[90%] sm:w-full xl:w-[90%] flex flex-col sm:flex-row items-start justify-between gap-4  ">
       <div
