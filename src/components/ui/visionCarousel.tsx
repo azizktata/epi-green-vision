@@ -22,25 +22,25 @@ export default function VisionCarousel() {
       title: "Access to Sustainable Energy",
       description:
         "We help companies and communities access sustainable modern energy services that underpins business, health, education, and livelihoods, increasing resilience to climate change.",
-      imgUrl: "/service-3.jpg",
+      imgUrl: "/service-3.webp",
     },
     {
       title: "Empower Advanced Circular Technology",
       description:
         "Circular projects provide high-benefit economical results and enhance local communities' businesses, especially in under-developing countries. At EPI Green Vision, we strive to maintain zero waste to landfill by converting domestic and industrial wastes into energy or other useful materials.",
-      imgUrl: "/value-2.jpg",
+      imgUrl: "/value-2.webp",
     },
     {
       title: "Reduce Dependencies from Rare Raw Materials",
       description:
         "While providing new technological solutions based on non-expensive and available materials, we help accelerate the energy transition and increase its sustainability.",
-      imgUrl: "/service-5.jpg",
+      imgUrl: "/service-5.webp",
     },
     {
       title: "Work in Open Network and Use Advanced Technologies",
       description:
         "We leverage high communication technologies like machine learning, artificial intelligence, and the internet of things to drive innovation.",
-      imgUrl: "/service-4.jpg",
+      imgUrl: "/service-4.webp",
     },
   ];
   return (

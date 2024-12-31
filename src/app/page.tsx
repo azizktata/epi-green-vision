@@ -12,7 +12,7 @@ export default function Home() {
       <section className="w-full h-[600px] ">
         <div className="relative w-full h-full overflow-hidden  flex items-center justify-center ">
           <Image
-            src="/cover-1.jpg"
+            src="/cover-1.webp"
             alt="Next.js Logo"
             fill
             className="object-cover"
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <div className="relative w-full max-w-xl  sm:w-1/2 h-[450px] ">
             <Image
-              src="/cover-2.png"
+              src="/cover-2.webp"
               alt="Next.js Logo"
               fill
               className="object-cover"
@@ -159,42 +159,42 @@ const services = [
     title: "Support companies with innovative projects",
     description:
       "We support Tunisian, African and global industries and startups in their innovative projects in the study, engineering, optimization, development and implementation phases. We also participate in national and global technical and strategic partnerships for the fight against pollution and climate change.",
-    imgUrl: "/service-1.jpg",
+    imgUrl: "/service-1.webp",
   },
   {
     subtitle: "2. National & international researches",
     title: "Support innovators to accelerate the delivery of new products",
     description:
       "Introducing a new technology or product to a new market has never been easy and has its own set of challenges and obstacles. At EPI Green Vision, we support innovators who seek to accelerate the delivery of new products by optimizing resources and reducing cost through innovation.",
-    imgUrl: "/service-2.jpg",
+    imgUrl: "/service-2.webp",
   },
   {
     subtitle: "3. Green Energy production and storage",
     title: "Develop new technologies",
     description:
       "We develop new technologies for the production of biofuels, alternative energies, water treatment, green hydrogen, ecological batteries, waste recycling and many other areas.",
-    imgUrl: "/service-3.jpg",
+    imgUrl: "/service-3.webp",
   },
   {
     subtitle: "4. Optimize Industrial Processes",
     title: "We support Tunisian companies in optimizing industrial processes.",
     description:
       "Our industrial engineering team supports Tunisian companies in optimizing industrial processes. We improve efficiency, control flows, reduce losses and energy consumption and manage costs. We also assist manufacturers to automate their processes and prepare their migration towards Industry 4.0.",
-    imgUrl: "/service-4.jpg",
+    imgUrl: "/service-4.webp",
   },
   {
     subtitle: "5. Offer Consultancy in Biofuels Projects",
     title: "We provide business and technical consultancy.",
     description:
       "With over 15 years’ experience in multi-feedstock biofuels industries, we provide business and technical consultancy in new or existing projects. We help entrepreneurs optimize their plants and upgrade it to use low-quality feedstock with high economic efficiency and improve the output product quality.",
-    imgUrl: "/service-5.jpg",
+    imgUrl: "/service-5.webp",
   },
   {
     subtitle: "6. Project Management and Leadership",
     title: "Scale-up renewable energy technologies",
     description:
       "We operate the most comprehensive open access, independent test and research facilities anywhere in the world to enable the scale-up of renewable energy technologies. With highly experienced teams of technical researchers, test engineers and technology specialists, EPI GreenVision is equipped to deliver industry-leading test, validation and applied research services to drive down the costs of innovation projects.",
-    imgUrl: "/service-6.jpg",
+    imgUrl: "/service-6.webp",
   },
 ];
 const values = [
@@ -206,7 +206,7 @@ const values = [
       "We specialize in underdeveloped yet transformative technologies, such as green hydrogen, next-generation batteries, thermal energy storage, heat pumps, bioenergy with carbon capture, and floating solar PV.",
       "These innovations are poised to revolutionize energy production, consumption, and CO2 capture in the coming years, making a significant impact on the fight against climate change. Together, we can shape a cleaner, more resilient future.",
     ],
-    imgurl: "/value-1.jpg",
+    imgurl: "/value-1.webp",
     tagline: "Research, Develop, Innovate",
   },
   {
@@ -216,7 +216,7 @@ const values = [
       "We assist Tunisian companies in transforming their innovative ideas into successful projects. By offering comprehensive technical and managerial support, we guide businesses through every phase of the project lifecycle—from experimental proof of concept to prototype design and manufacturing, all the way to system delivery in an operational environment.",
       "Our expertise ensures that companies can overcome barriers and achieve groundbreaking advancements, fostering a culture of innovation and growth.",
     ],
-    imgurl: "/value-2.jpg",
+    imgurl: "/value-2.webp",
     tagline: "We Guide Your Innovation Journey",
   },
 ];
