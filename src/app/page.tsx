@@ -66,7 +66,7 @@ export default function Home() {
 
       <section
         id="values"
-        className="w-[95%]  mx-auto flex flex-col items-center mb-16"
+        className="w-[95%] xl:w-[85%]  mx-auto flex flex-col items-center mb-16"
       >
         <div className="relative inline-block mb-16">
           <div className="absolute inset-0 bg-green-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4 animate-pulse"></div>
@@ -93,7 +93,10 @@ export default function Home() {
         <VisionCarousel />
       </section>
 
-      <section id="services" className="w-[90%] mx-auto mb-16  flex flex-col">
+      <section
+        id="services"
+        className="w-[90%] xl:w-[80%]  mx-auto mb-16  flex flex-col"
+      >
         <div className="relative inline-block mb-16 mx-auto ">
           <div className="absolute inset-0 bg-green-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4 animate-pulse"></div>
           <h1 className="text-3xl font-bold text-gray-800">Services</h1>

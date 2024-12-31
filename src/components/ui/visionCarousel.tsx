@@ -66,7 +66,7 @@ export default function VisionCarousel() {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-linear"></div>
                 {/* <div className="absolute inset-0 bg-gradient-to-l from-black/40 via-transparent to-transparent"></div> */}
               </div>
-              <CardBody className="absolute inset-0 mb-12 ml-4 lg:ml-14 z-10 flex items-start justify-center">
+              <CardBody className="absolute inset-0 mb-8 ml-4 lg:ml-14 xl:ml-32 z-10 flex items-start justify-center">
                 <div className="mt-12  flex flex-col items-start w-auto mb-6  ">
                   <h1 className="mb-4 max-w-md xl:max-w-3xl font-semibold text-4xl sm:text-5xl  text-white  tracking-wider">
                     {vision.title}
