@@ -97,18 +97,17 @@ export default async function Home() {
             <div className="absolute inset-0 bg-green-400 w-16 h-16 rounded-full -z-10 -translate-x-6 -translate-y-4 animate-pulse"></div>
             <h1 className="text-3xl font-bold text-gray-800">Our Values</h1>
           </div>
-          {values &&
-            values.map((value, index) => (
-              <ValueContainer
-                key={index}
-                title={value.title}
-                subtitle={value.subtitle}
-                description={value.description}
-                imgUrl={value.image}
-                tagline={value.tagline}
-                inverted={index % 2 === 0}
-              />
-            ))}
+          {values.map((value, index) => (
+            <ValueContainer
+              key={index}
+              title={value.title}
+              subtitle={value.subtitle}
+              description={value.description}
+              imgUrl={value.image}
+              tagline={value.tagline}
+              inverted={index % 2 === 0}
+            />
+          ))}
         </section>
 
         <section id="vision" className="w-full mx-auto mb-16 flex flex-col">
