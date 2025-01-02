@@ -11,7 +11,7 @@ import {
 } from "@nextui-org/navbar";
 
 import Link from "next/link";
-import { Image } from "@nextui-org/image";
+import Image from "next/image";
 
 export default function Header({ logoUrl }: { logoUrl: string }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
