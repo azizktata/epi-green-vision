@@ -11,7 +11,7 @@ export default function ValueContainer({
 }: {
   title: string;
   subtitle: string;
-  description: string[];
+  description: string;
   imgUrl: string;
   inverted?: boolean;
   tagline: string;
@@ -38,7 +38,7 @@ export default function ValueContainer({
         <p className="text-[#289F2F] font-semibold ">{subtitle}</p>
         <h1 className="text-3xl  font-bold  mb-4 max-w-md ">{title}</h1>
         <div className="max-w-lg">
-          {description.map((desc, index) => (
+          {description.split(".").map((desc, index) => (
             <p key={index} className="text-gray-700 leading-relaxed mb-2">
               {desc}
             </p>

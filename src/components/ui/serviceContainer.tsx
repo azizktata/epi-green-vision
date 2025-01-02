@@ -32,7 +32,12 @@ export default function ServiceContainer({
         <p className="text-gray-700 leading-relaxed ">{description}</p>
       </div>
       <div className={`relative w-full  sm:w-1/2 h-[350px] ${order2}`}>
-        <Image src={imgUrl} alt="Next.js Logo" fill className="object-cover" />
+        <Image
+          src={imgUrl.length > 0 ? imgUrl : "/cover-1.webp"}
+          alt="Next.js Logo"
+          fill
+          className="object-cover"
+        />
       </div>
     </div>
   );

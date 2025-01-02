@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/ui/header";
 import { Toaster } from "sonner";
-import Footer from "@/components/ui/footer";
 
 const rubik = Rubik({
   variable: "--font-rubik",
@@ -32,9 +30,8 @@ export default function RootLayout({
             },
           }}
         />
-        <Header />
+
         {children}
-        <Footer />
       </body>
     </html>
   );

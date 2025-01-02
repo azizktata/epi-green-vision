@@ -4,14 +4,19 @@ import Link from "next/link";
 import { Facebook, Instagram, MapPin, Phone, Mail } from "lucide-react";
 import Image from "next/image";
 
-export default function Footer() {
+export default function Footer({ logoUrl }: { logoUrl: string }) {
   return (
     // <footer className="bg-gradient-to-r from-[#002F6B]/30 to-[#85E08A] opacity-80 text-white py-10">
     <footer className="bg-gradient-to-t from-[#002F6B] to-[#85E08A]/50  text-white py-10">
       <div className="container w-[85%]  mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* About Section */}
         <div className="flex flex-col items-center gap-8">
-          <Image src="/logo-green.png" alt="logo" width={112} height={50} />
+          <Image
+            src={logoUrl && logoUrl.length > 0 ? logoUrl : "/logo-green.png"}
+            alt="logo"
+            width={112}
+            height={50}
+          />
 
           {/* <p>your gateway way to global trade</p> */}
         </div>

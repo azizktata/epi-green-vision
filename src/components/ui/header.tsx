@@ -13,7 +13,7 @@ import {
 import Link from "next/link";
 import { Image } from "@nextui-org/image";
 
-export default function Header() {
+export default function Header({ logoUrl }: { logoUrl: string }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
@@ -42,7 +42,12 @@ export default function Header() {
         />
         <NavbarBrand className="hidden sm:flex">
           <Link href={"/"} className="font-bold text-inherit">
-            <Image src="/logo-green.png" alt="logo" width={112} height={50} />
+            <Image
+              src={logoUrl && logoUrl.length > 0 ? logoUrl : "/logo-green.png"}
+              alt="logo epigreenvision"
+              width={112}
+              height={50}
+            />
           </Link>
         </NavbarBrand>
       </NavbarContent>
