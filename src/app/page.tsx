@@ -175,7 +175,12 @@ export default async function Home() {
           </div>
         </section>
       </div>
-      <Footer logoUrl={logo_epigreenvision} />
+      <Footer
+        logoUrl={logo_epigreenvision}
+        email={contactSection.email}
+        phone={contactSection.phone}
+        address={contactSection.address}
+      />
     </>
   );
 }

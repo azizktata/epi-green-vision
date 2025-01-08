@@ -4,7 +4,17 @@ import Link from "next/link";
 import { Facebook, Instagram, MapPin, Phone, Mail } from "lucide-react";
 import Image from "next/image";
 
-export default function Footer({ logoUrl }: { logoUrl: string }) {
+export default function Footer({
+  logoUrl,
+  email,
+  address,
+  phone,
+}: {
+  logoUrl: string;
+  email: string;
+  address: string;
+  phone: string;
+}) {
   return (
     // <footer className="bg-gradient-to-r from-[#002F6B]/30 to-[#85E08A] opacity-80 text-white py-10">
     <footer className="bg-gradient-to-t from-[#002F6B] to-[#85E08A]/50  text-white py-10">
@@ -71,18 +81,15 @@ export default function Footer({ logoUrl }: { logoUrl: string }) {
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
               <MapPin size={32} />
-              <span>
-                A6, Imm Laguna Square, Les Berges du Lac 2 Po 1053, Tunis –
-                Tunisia
-              </span>
+              <span>{address}</span>
             </li>
             <li className="flex items-center gap-2">
               <Phone size={16} />
-              <span>+216 98 349 968</span>
+              <span>{phone}</span>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} />
-              <span>contact@epigreenvision.com</span>
+              <span>{email}</span>
             </li>
           </ul>
         </div>
